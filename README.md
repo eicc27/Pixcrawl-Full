@@ -24,6 +24,8 @@
     `Selenium Chrome(或者 IE/Firefox 早期版本/Opera...)`
 
     语法大同而小异。但是，照搬我的工具狐的代码会有问题！
+    
+    对于多进程最后的下载图片函数，最后我还是写成了任务分配式（线程固定运行一段GetPic代码），而不是进程分配式（对每个url进行进程分配）。如果想确保高准确率，可以考虑换回进程分配式。
 
 3. 由于我是零基础学起（别说程序里的js和xpath了，甚至包括python），程序写就比较仓促，仅仅做了功能性优化，顺便优化了代码结构（没错，原来的代码更加凌乱），我已经在开头和关键位置尽量注释了一些提示。如果是想爬虫入门，我还是建议爬更容易爬到的网站，并且参考代码风格比较简洁的up主/csdn程序员的实例代码，而不是我的。
 
@@ -66,6 +68,8 @@
     * You should modify the path to your own browser's cache path.
     * Note that there are small but fatal difference between browsers'(e.g., IE, Chrome, Edge, Opera...) initialization with Selenium. You may search the method on the Internet.
 
+    * At the last part of the program, I finally chose ALLOCATIVE(allocate a certain length of urls for the function to operate) not DISTRIBUTIVE(give processes a single url at a time). If a higher accuracy is needed, consider using distributive method instead.
+
 3. Because of hurriedness, the coding style is not very uniform and sometimes might cause confusion. At the beginning and some vital points, I've tried my best to add some annotations to make things clear. Anyway, I would never spare my apologies for any problems caused.
 
 ## Instuctions of the program itself
@@ -84,7 +88,7 @@
     * Arbitrarily check if R and NR pics have been misplaced.
     * Use breakpoints.
 
-6. The program is not necessarily up to date. Because pixiv sometimes changes its url format and at that time, the strings in the program must be simultaneously updated.
+6. The program is not necessarily up to date. Because pixiv sometimes changes its url format, at that time the strings in the program must be simultaneously updated.
 
 
 
