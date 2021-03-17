@@ -31,7 +31,7 @@
 
 ## 程序本身的一些说明
 
-1. 您必须事先新建一个名字为“LSP”的文件夹，在此程序所在的根目录下。
+1. （已过期，可以不用了）您必须事先新建一个名字为“LSP”的文件夹，在此程序所在的根目录下。
 
 2. 所有的一级文件夹以画师名字命名，二级文件夹分成R和NR。图片从最后一页开始爬取，同一图集的图片以“_serial”的形式命名。
 
@@ -74,7 +74,7 @@
 
 ## Instuctions of the program itself
 
-1. A new folder named "LSP" must be firstly present in the program's current folder.
+1.(Deprecated) A new folder named "LSP" must be firstly present in the program's current folder.
 
 2. All primary folder is named after illustrators, and all secondary ones are seperated with "Restricted"(R) and "Not-Restricted"(NR), and the pictures are crawled from the last page, with the same series identified with "_serial" ending.
 
