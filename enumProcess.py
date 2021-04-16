@@ -1,11 +1,13 @@
 import curses
 stdscr = curses.initscr()
+stdscr.clear()
+stdscr.refresh()
+stdscr.move(0, 0)
 curses.curs_set(False)
 MB = 1024 * 1024
 
 
 def downloadBar0(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -31,10 +33,10 @@ def downloadBar0(a, b, c):
 
     stdscr.addstr(0, 12, percInStr + ' ' + dataInStr + '/' + alldata)
     stdscr.refresh()
-
+#[=========>] 100.00% 999KB/999KB
+#len:32
 
 def downloadBar1(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -63,7 +65,6 @@ def downloadBar1(a, b, c):
 
 
 def downloadBar2(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -92,7 +93,6 @@ def downloadBar2(a, b, c):
 
 
 def downloadBar3(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -121,7 +121,6 @@ def downloadBar3(a, b, c):
 
 
 def downloadBar4(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -150,7 +149,6 @@ def downloadBar4(a, b, c):
 
 
 def downloadBar5(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -179,7 +177,6 @@ def downloadBar5(a, b, c):
 
 
 def downloadBar6(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -208,7 +205,6 @@ def downloadBar6(a, b, c):
 
 
 def downloadBar7(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -237,7 +233,6 @@ def downloadBar7(a, b, c):
 
 
 def downloadBar8(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -266,7 +261,6 @@ def downloadBar8(a, b, c):
 
 
 def downloadBar9(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -295,7 +289,6 @@ def downloadBar9(a, b, c):
 
 
 def downloadBar10(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -324,7 +317,6 @@ def downloadBar10(a, b, c):
 
 
 def downloadBar11(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -353,7 +345,6 @@ def downloadBar11(a, b, c):
 
 
 def downloadBar12(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -382,7 +373,6 @@ def downloadBar12(a, b, c):
 
 
 def downloadBar13(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -411,7 +401,6 @@ def downloadBar13(a, b, c):
 
 
 def downloadBar14(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
@@ -440,7 +429,6 @@ def downloadBar14(a, b, c):
 
 
 def downloadBar15(a, b, c):
-
     dd = a * b
     if dd > c:
         dd = c
