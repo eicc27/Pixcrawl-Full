@@ -1,3 +1,10 @@
+# Important:
+   This program has some issues rendering the downlading process and has to be revised. A non-cursor package-like program is under development.
+   
+   The program here is to be archived so as to represent a footprint of my way of Python.
+   
+   Next time, a more powerful command-line version including a command-line parsing library(CLI), a more strategic multiprocessing distribution, and a colored font library would be released as a new repo.
+   
 # ***使用说明***
 
 # 此程序使用curses库来绘制下载GUI。请保证以标准终端运行（而不是Pycharm的控制台），并确保不要随意改变终端窗口的大小。
